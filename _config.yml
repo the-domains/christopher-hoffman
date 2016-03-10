@@ -1,28 +1,40 @@
-name: Christopher Hoffman
+layout_spectrum: 0.7953692
 favicon: null
-layout_spectrum: 0.8063713919837028
-typography_spectrum: 0.9156906232237816
-cta:
-  domain: null
-  bucket: null
-  version: null
+name: Christopher Hoffman
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
+cta:
+  version: null
+  bucket: null
+  domain: null
 color:
+  brandStrength: 0.4442256521433592
+  saturation: 0.07533890171907842
   brandColors:
     - '#000000'
     - '#cdcdcd'
     - '#9e9e9e'
     - '#5a5a5a'
     - '#7d7d7d'
-  brandStrength: 0.4442256521433592
-  lightness: 0.37532029463909566
-  saturation: 0.07533890171907842
+  lightness: 0.3753202946390957
   rhythmicContrast: 0.6580135200638324
-purpose: []
+typography_spectrum: 0.9156906232237816
